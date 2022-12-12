@@ -1,0 +1,51 @@
+.watchlist-header {
+  margin: auto;
+  text-align: center;
+}
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.property-card {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  border: 1px solid gray;
+
+}
+
+.entry {
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  border: solid 1px black;
+  background-color: rgb(206, 221, 221);
+
+}
+
+input {
+  height: 2em;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+button { 
+  height: 24px;
+  margin: auto;
+}
+
+
+.search-links {
+  margin: auto;
+display: flex;
+flex-direction: column;
+width: 220px;
+}
